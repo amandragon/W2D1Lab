@@ -11,6 +11,7 @@ class SortedArray
 
   def add(new_ele)
     @internal_arr.insert("#{new_ele}")
+    #@internal_arr.insert(first_larger_index,target)
   end
 
   def size
@@ -40,11 +41,9 @@ end
 
 
   def index(target)
+    
 
-    #return @source.sort.index
-    #if @source.include?(target)
-    #return @source.sort.index
-  #else
-   # return nil
+    #if item found, return index
+    #if not found, return nil
   end
 end
